@@ -26,6 +26,9 @@
     .button
     {
       padding: 19px 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       gap: 12px;
   
       &::before
@@ -71,11 +74,6 @@
 
 @media only screen and (max-width: 1020px) {
 
-  .header
-  {
-    display: none;
-  }
-
   .hero
   {
     &__inner{ 
@@ -114,6 +112,8 @@
 }
 
 
+
+
 @media only screen and (max-width: 750px) {
 
   .hero
@@ -138,6 +138,16 @@
         width: 100%;
       }
     }
+
+    &__kard{
+      max-width: 100%;
+  
+      &--img{
+        max-width: 100%;
+      }
+    }
+
+
   }
 }
 
@@ -147,6 +157,17 @@
 
     &__inner{ 
       max-width: 330px;
+
+
+
+      h1{
+        @include font(28px,39px);
+      }      
+      p
+      {
+        @include font(16px,22px,400);
+      }
+
     }
   }
 
