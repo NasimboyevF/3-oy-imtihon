@@ -120,6 +120,13 @@ a, button, p {
   background-color: transparent;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
 .light-mod {
   background-color: #FFFFFF !important;
   color: #2B2B2B !important;
@@ -168,7 +175,7 @@ a, button, p {
   padding: 12px 20px;
   font-size: 16px;
   line-height: 22px;
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 .header .button {
   padding: 19px 30px;
@@ -269,7 +276,7 @@ a, button, p {
     padding: 12px 20px;
     font-size: 27px;
     line-height: 42px;
-    font-weight: 600;
+    font-weight: 600 !important;
   }
 }
 .hero {
@@ -284,14 +291,14 @@ a, button, p {
 .hero__inner h1 {
   font-size: 67px;
   line-height: 73px;
-  font-weight: 600;
+  font-weight: 600 !important;
   margin-bottom: 20px;
   text-transform: capitalize;
 }
 .hero__inner p {
   font-size: 22px;
   line-height: 35px;
-  font-weight: 400;
+  font-weight: 400 !important;
   margin-bottom: 30px;
   text-transform: capitalize;
 }
@@ -315,7 +322,7 @@ a, button, p {
 .hero__kard--box h2 {
   font-size: 22px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 600 !important;
   margin-bottom: 10px;
 }
 .hero__kard--box div {
@@ -330,7 +337,7 @@ a, button, p {
 .hero__kard--box div p {
   font-size: 16px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
 @media only screen and (max-width: 1020px) {
@@ -340,12 +347,12 @@ a, button, p {
   .hero__inner h1 {
     font-size: 38px;
     line-height: 45px;
-    font-weight: 600;
+    font-weight: 600 !important;
   }
   .hero__inner p {
     font-size: 16px;
     line-height: 22px;
-    font-weight: 400;
+    font-weight: 400 !important;
   }
   .hero__kard {
     max-width: 330px;
@@ -359,7 +366,7 @@ a, button, p {
   .hero__kard--box h2 {
     font-size: 22px;
     line-height: 30px;
-    font-weight: 600;
+    font-weight: 600 !important;
     margin-bottom: 10px;
   }
 }
@@ -375,12 +382,12 @@ a, button, p {
   .hero__inner h1 {
     font-size: 38px;
     line-height: 45px;
-    font-weight: 600;
+    font-weight: 600 !important;
   }
   .hero__inner p {
     font-size: 16px;
     line-height: 22px;
-    font-weight: 400;
+    font-weight: 400 !important;
   }
   .hero__inner .button {
     width: 100%;
@@ -399,12 +406,12 @@ a, button, p {
   .hero__inner h1 {
     font-size: 28px;
     line-height: 39px;
-    font-weight: 600;
+    font-weight: 600 !important;
   }
   .hero__inner p {
     font-size: 16px;
     line-height: 22px;
-    font-weight: 400;
+    font-weight: 400 !important;
   }
 }
 .creators {
@@ -419,13 +426,13 @@ a, button, p {
 .creators .creators-top div h2 {
   font-size: 38px;
   line-height: 45px;
-  font-weight: 600;
+  font-weight: 600 !important;
   margin-bottom: 10px;
 }
 .creators .creators-top div p {
   font-size: 22px;
   line-height: 35px;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 .creators .button {
   padding: 20px 50px;
@@ -456,14 +463,14 @@ a, button, p {
 .creators .card-box .cards h3 {
   font-size: 22px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 600 !important;
   text-align: center;
   margin: 20px 0 5px;
 }
 .creators .card-box .cards p {
   font-size: 16px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 400 !important;
   color: #858584;
   display: flex;
   flex-wrap: wrap;
@@ -483,7 +490,7 @@ a, button, p {
   left: 20px;
   font-size: 16px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 400 !important;
   color: #858584;
   background-color: #2B2B2B;
   border-radius: 50%;
@@ -531,13 +538,13 @@ a, button, p {
   .creators .creators-top div h2 {
     font-size: 28px;
     line-height: 39px;
-    font-weight: 600;
+    font-weight: 600 !important;
     margin-bottom: 10px;
   }
   .creators .creators-top div p {
     font-size: 16px;
     line-height: 22px;
-    font-weight: 400;
+    font-weight: 400 !important;
   }
   .creators .card-box {
     grid-template-columns: repeat(2, auto);
@@ -585,7 +592,7 @@ a, button, p {
 .browse h2 {
   font-size: 38px;
   line-height: 45px;
-  font-weight: 600;
+  font-weight: 600 !important;
   margin-bottom: 60px;
 }
 .browse__list {
@@ -666,7 +673,7 @@ a, button, p {
   .browse h2 {
     font-size: 28px;
     line-height: 39px;
-    font-weight: 600;
+    font-weight: 600 !important;
     margin-bottom: 40px;
   }
   .browse__img img {
@@ -716,7 +723,7 @@ a, button, p {
 .discover__info h3 {
   font-size: 22px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 .discover__info .discover__name {
   display: flex;
@@ -727,7 +734,7 @@ a, button, p {
 .discover__info .discover__name p {
   font-size: 16px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 .discover__info .discover__text {
   display: flex;
@@ -736,7 +743,7 @@ a, button, p {
 .discover__info .discover__text p {
   font-size: 12px;
   line-height: 13px;
-  font-weight: 400;
+  font-weight: 400 !important;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -757,7 +764,7 @@ a, button, p {
   .discover__info .discover__text p span {
     font-size: 16px;
     line-height: 22px;
-    font-weight: 400;
+    font-weight: 400 !important;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -767,7 +774,7 @@ a, button, p {
   .discover__info .discover__text p span {
     font-size: 16px;
     line-height: 22px;
-    font-weight: 400;
+    font-weight: 400 !important;
   }
 }
 .join {
@@ -787,14 +794,14 @@ a, button, p {
   text-transform: capitalize;
   font-size: 38px;
   line-height: 46px;
-  font-weight: 600;
+  font-weight: 600 !important;
   margin-bottom: 10px;
 }
 .join__info p {
   text-transform: capitalize;
   font-size: 22px;
   line-height: 35px;
-  font-weight: 400;
+  font-weight: 400 !important;
   margin-bottom: 40px;
 }
 .join__info form {
@@ -831,13 +838,13 @@ a, button, p {
   .join__info h2 {
     font-size: 28px;
     line-height: 39px;
-    font-weight: 600;
+    font-weight: 600 !important;
   }
   .join__info p {
     text-transform: capitalize;
     font-size: 16px;
     line-height: 22px;
-    font-weight: 400;
+    font-weight: 400 !important;
     margin-bottom: 40px;
   }
   .join__info form {
@@ -888,13 +895,13 @@ a, button, p {
   .join__info h2 {
     font-size: 28px;
     line-height: 39px;
-    font-weight: 600;
+    font-weight: 600 !important;
   }
   .join__info p {
     text-transform: capitalize;
     font-size: 16px;
     line-height: 22px;
-    font-weight: 400;
+    font-weight: 400 !important;
     margin-bottom: 40px;
   }
   .join__info form {
@@ -937,7 +944,7 @@ a, button, p {
 .footer h2, .footer h3, .footer p, .footer a {
   font-size: 16px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 400 !important;
   color: #CCCCCC;
 }
 .footer__box {
@@ -960,7 +967,7 @@ a, button, p {
 .footer .lists .top {
   font-size: 22px;
   line-height: 35px;
-  font-weight: 600;
+  font-weight: 600 !important;
   margin-bottom: 15px;
 }
 .footer .text {
@@ -969,7 +976,7 @@ a, button, p {
 .footer .text h2 {
   font-size: 22px;
   line-height: 35px;
-  font-weight: 600;
+  font-weight: 600 !important;
   margin-bottom: 25px;
 }
 .footer span {

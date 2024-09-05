@@ -15,6 +15,7 @@ const mod = document.querySelector('.mod')
 
     body.classList.toggle('light-mod')
 
-
   })
+
+
 

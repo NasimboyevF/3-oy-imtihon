@@ -7,6 +7,8 @@
   src: url(../fonts/WorkSans-VariableFont_wght.woff2) format('woff2');
 }
 
+
+
 :root
 {
   --color:#FFF
@@ -16,7 +18,7 @@
 {
   font-size: $b;
   line-height: $c;
-  font-weight: $a;
+  font-weight: $a !important;
 }
 
 body
@@ -62,6 +64,14 @@ a,button,p{
   }
 }
 
+body
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+
+}
 
 
 
