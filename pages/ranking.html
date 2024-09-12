@@ -6,29 +6,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <link rel="stylesheet" href="../css/connect.css">
-
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          backgroundImage: {
-            'hero': "url('../imgs/connect-hero-img.png')",
-          },
-          colors: {
-           'blural': '#A259FF',
-          },
-        }
-      }
-    }
-  </script>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../css/ranking.css">
+  <title>Document</title>
 </head>
 <body class="dark-mod">
-
   <header class="header container container-header">
     <a href="../index.html">
       <svg width="244" height="32" viewBox="0 0 244 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -87,35 +75,520 @@
       <span></span>
       <span></span>
     </div>
-
   </header>
-
-  <main class=" connect container grid md:gap-10 lg:gap-14 grid-cols-1 md:grid-cols-2 ">
-    
-    <div class="  bg-hero bg-no-repeat bg-center bg-cover min-h-60">  
-    </div>
-    <div class=" py-8 px-8  md:px-0 md:py-20  lg:py-24 ">
-      <h2 class=" font-semibold text-[38px] leading-[45px] lg:text-[51px] lg:leading-[56px] mb-5 ">
-        Connect wallet
-      </h2>
-      <p class=" mb-7 md:mb-10 lg:max-w-[460px] md:max-w-[325px] lg:text-[22px] lg:leading-[35px] font-normal">
-        Choose a wallet you want to connect. There are several wallet providers.
+    <div class="main container ranking">
+      <h1 class=" ranking__title">
+        Top Creators
+      </h1>
+      <p class="ranking__sekond-text">
+        Check out top ranking NFT artists on the NFT Marketplace.
       </p>
-      <div class=" buttons gap-5 md:max-w-80 flex flex-col ">
-        <button class="flex items-center gap-5 text-left text-2xl active:border-2 active:border-solid border-2 border-blural border-solid  rounded-3xl py-3 pl-10 pr-5 before:bg-[url(../../imgs/Metamask-connect.svg)] before:bg-no-repeat before:w-8 before:h-8 before:bg-center before:bg-cover      " >
-          Metamask
-        </button>
-        <button class="flex items-center gap-5 text-left text-2xl active:border-2 active:border-solid border-2 border-blural border-solid  rounded-3xl py-3 pl-10 pr-5 before:bg-[url(../../imgs/WalletConnect.svg)] before:bg-no-repeat before:w-8 before:h-8 before:bg-center before:bg-cover      " >
-          Wallet Connect
-        </button>
-        <button class="flex items-center gap-5 text-left text-2xl active:border-2 active:border-solid border-2 border-blural border-solid  rounded-3xl py-3 pl-10 pr-5 before:bg-[url(../../imgs/Coinbase-connect.svg)] before:bg-no-repeat before:w-8 before:h-8 before:bg-center before:bg-cover      " >
-          Coinbase
-        </button>
+
+      <div class="ranking__days">
+        <p>
+          Today
+        </p>
+        <p>
+          This Week
+        </p>
+        <p>
+          This Month
+        </p>
+        <p>
+          All Time
+        </p>
       </div>
 
-    </div>
-  </main>
+      <div class="ranking__days ranking__days-mobile">
+        <p>
+          1d
+        </p>
+        <p>
+          7d
+        </p>
+        <p>
+          30d
+        </p>
+        <p>
+          All Time
+        </p>
+      </div>
 
+
+      <ul  class="ranking__list">
+        <li class="runking__item runking__sub-item">
+          <div class="runking__info  ">
+            <span>
+              #
+            </span>
+            <p class="runking__text">
+              Artist
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              Change
+            </p>
+            <p class="runking__sold">
+              NFTs Sold
+            </p>
+            <p class="runking__volume">
+              Volume
+            </p>
+          </div>
+        </li>
+
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              1
+            </span>
+            <img src="../imgs/Keepitreal.png " alt="">
+            <p class="runking__text">
+              Jaydon Ekstrom Bothman
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              2
+            </span>
+            <img src="../imgs/DigiLab.png " alt="">
+            <p class="runking__text">
+              Ruben Carder
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              3
+            </span>
+            <img src="../imgs/GravityOne.png " alt="">
+            <p class="runking__text">
+              runking__prices
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              4
+            </span>
+            <img src="../imgs/Juanie.png " alt="">
+            <p class="runking__text">
+              Davis Franci
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              5
+            </span>
+            <img src="../imgs/BlueWhale.png " alt="">
+            <p class="runking__text">
+              Livia Rosser
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              6
+            </span>
+            <img src="../imgs/Artist Avatar-mrfox.png " alt="">
+            <p class="runking__text">
+              Kianna Donin
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              7
+            </span>
+            <img src="../imgs/Shroomie.png " alt="">
+            <p class="runking__text">
+              Phillip Lipshutz
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              8
+            </span>
+            <img src="../imgs/robotica.png " alt="">
+            <p class="runking__text">
+              Maria Rosser
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              9
+            </span>
+            <img src="../imgs/RustyRobot.png" alt="">
+            <p class="runking__text">
+              Kianna Stanton
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              10
+            </span>
+            <img src="../imgs/NebulaKid.png " alt="">
+            <p class="runking__text">
+              Angel Lubin
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              10
+            </span>
+            <img src="../imgs/Keepitreal.png " alt="">
+            <p class="runking__text">
+              Jaydon Ekstrom Bothman
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              12
+            </span>
+            <img src="../imgs/DigiLab.png " alt="">
+            <p class="runking__text">
+              Ruben Carder
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              13
+            </span>
+            <img src="../imgs/GravityOne.png " alt="">
+            <p class="runking__text">
+              runking__prices
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              14
+            </span>
+            <img src="../imgs/Juanie.png " alt="">
+            <p class="runking__text">
+              Davis Franci
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              15
+            </span>
+            <img src="../imgs/BlueWhale.png " alt="">
+            <p class="runking__text">
+              Livia Rosser
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              16
+            </span>
+            <img src="../imgs/Artist Avatar-mrfox.png " alt="">
+            <p class="runking__text">
+              Kianna Donin
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              17
+            </span>
+            <img src="../imgs/Shroomie.png " alt="">
+            <p class="runking__text">
+              Phillip Lipshutz
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              18
+            </span>
+            <img src="../imgs/robotica.png " alt="">
+            <p class="runking__text">
+              Maria Rosser
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              19
+            </span>
+            <img src="../imgs/RustyRobot.png" alt="">
+            <p class="runking__text">
+              Kianna Stanton
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+        <li class="runking__item">
+          <div class="runking__info  ">
+            <span>
+              20
+            </span>
+            <img src="../imgs/NebulaKid.png " alt="">
+            <p class="runking__text">
+              Angel Lubin
+            </p>
+          </div>
+          <div class="runking__prices">
+            <p class="runking__change">
+              +1.41%
+            </p>
+            <p class="runking__sold">
+              602
+            </p>
+            <p class="runking__volume">
+              12.4 ETH
+            </p>
+          </div>
+        </li>
+
+
+      </ul>
+
+
+
+
+
+
+
+    </div>
   <footer class="footer">
     <div class="container">
       <div class="footer__box">
@@ -129,7 +602,7 @@
           <p>
             Join our community
           </p>
-          <div class="flex gap-3">
+          <div class="">
             <a href="#">
               <img src="../imgs/YoutubeLogo-youtube.svg" alt="">
             </a>
@@ -171,6 +644,12 @@
           <p>
             Get exclusive promotions & updates straight to your inbox.
           </p>
+          <form action="#">
+            <input type="email" placeholder="Enter your email here" >
+            <button class="button">
+              Subscribe
+            </button>
+          </form>
         </div>
       </div>
       <span></span>
@@ -180,7 +659,7 @@
 
     </div>
   </footer>
- 
+
   <script src="../js/main.js"></script>
 </body>
 </html>
